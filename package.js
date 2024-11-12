@@ -6,7 +6,7 @@ Package.describe({
 });
 
 Package.onUse(function (api) {
-	api.versionsFrom('METEOR@1.3.2');
+	api.versionsFrom(['1.3','2.4','3.0']);
 
 	api.use([
 		'meteor',
