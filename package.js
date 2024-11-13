@@ -10,8 +10,8 @@ Package.onUse(function (api) {
 
 	api.use([
 		'meteor',
-		'jquery',
-		'fourseven:scss@3.4.3'
+		'jquery@1.11.6 || 2.1.1 || 3.0.2',
+		'fourseven:scss@3.4.3 || 4.17.0-rc.0'
 	]);
 
 	api.addFiles([
