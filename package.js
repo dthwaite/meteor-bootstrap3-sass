@@ -6,12 +6,12 @@ Package.describe({
 });
 
 Package.onUse(function (api) {
-	api.versionsFrom(['1.3','2.4','3.0']);
+	api.versionsFrom(['3.0']);
 
 	api.use([
 		'meteor',
-		'jquery@1.11.6 || 2.1.1 || 3.0.2',
-		'fourseven:scss@3.4.3 || 4.17.0-rc.0'
+		'jquery@3.0.2',
+		'fourseven:scss@4.17.0-rc.0'
 	]);
 
 	api.addFiles([
